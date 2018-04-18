@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kätow's Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,900" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="assets/logo/CowCowTyper2ToTop.png">
+    </head>
+    
+    <body>
+        <div id="canIHelpYou">
+            <h2 class="heading" id="canIHeading">Can I help you with</h2>
+            <div class="fourAbilities-container">
+                <div class="fourAbilities">
+                    <h2>Webdesign</h2>
+                    <img>
+                </div>
+                <div class="fourAbilities">
+                    <img>
+                    <h2>Logo design</h2>
+                </div>
+                <div class="fourAbilities">
+                    <h2>Digital art</h2>
+                    <img>
+                </div>
+                <div class="fourAbilities">
+                    <img>
+                    <h2>Social marketing and branding</h2>
+                </div>
+            </div>
+        </div>
+<!-------Portfolio Part------->
+        <div id="portfolio">
+           <div class="button-row">
+                <button class="tablink" onclick="openPortfolio('Webdesign', this, '#008E84')" id="defaultOpen">Webdesign</button>
+                <button class="tablink" onclick="openPortfolio('LogoDesign', this, '#002847')">Logo design</button>
+                <button class="tablink" onclick="openPortfolio('DigitalArt', this, '#FF7700')">Digital art</button>
+                <button class="tablink" onclick="openPortfolio('SocialMrketing', this, '#378809')">Social marketing and branding</button>
+            </div>
+            <div class="portfolio-row">
+                <div id="Webdesign" class="tabcontent">
+                </div>
+
+                <div id="LogoDesign" class="tabcontent">
+                  <h3>Logo design</h3>
+                  <p>Paris is the capital of France.</p> 
+                </div>
+
+                <div id="DigitalArt" class="tabcontent">
+                    <div>
+                        <img src="assets/img/DigitalArt/Waterpainted%20portr%C3%A6t.jpg" alt="self portrait" class="digital-art">
+                        <img src="assets/img/DigitalArt/Waterpainted%20portr%C3%A6t.jpg" alt="self portrait" class="digital-art">
+                        <img src="assets/img/DigitalArt/Waterpainted%20portr%C3%A6t.jpg" alt="self portrait" class="digital-art">
+                        <img src="assets/img/DigitalArt/Waterpainted%20portr%C3%A6t.jpg" alt="self portrait" class="digital-art">
+                    </div>
+                </div>
+
+                <div id="SocialMrketing" class="tabcontent">
+                  <h3>Social marketing <br> and branding</h3>
+                  <p>Oslo is the capital of Norway.</p>
+                </div>
+            </div>
+        </div>
+        
+<!-------JavaScript part------->
+        <script src="assets/js/portfolio.js"></script>
+    </body>
+</html>
